@@ -18,13 +18,8 @@ app.get('/', (req, res) => {
 app.post('/', (req,res) => {
     
     codeLines = JSON.parse(req.body.codeLines)
-   
-    
-    
-    
     createPythonFile(codeLines)    
     
-
 });
 
 app.listen(3000, () => {

@@ -39,7 +39,6 @@ function App() {
 
   return (
     <Container>
-
       <Row>
         <Form.Control onChange={event => setCode(event.target.value)} as="textarea" rows="5" />
       </Row>
